@@ -20,7 +20,7 @@ function parseCmd(cmd)
     }
 }
 
-if (parseCmd('bash -c "git status &>/dev/null"') === 128)
+if (!fs.existsSync('.git'))
 {
     console.error('You must be in a Git repository.');
     process.exit(1);
