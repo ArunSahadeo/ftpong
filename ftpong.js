@@ -121,12 +121,6 @@ c.on('ready', function()
 			if (err) throw err;
 			console.log(`Changed current working directory to ${pwd}`);
 		});
-	
-		c.pwd(function(err, pwd)
-		{
-			if (err) throw err;
-			console.log(`Changed current working directory to ${pwd}`);
-		});
 
 		trackedFiles.forEach(function(trackedFile)
 		{
