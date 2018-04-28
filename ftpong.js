@@ -74,10 +74,6 @@ for (var key in config)
 				process.exit(0);
 			}
 		break;
-        default:
-            console.log(key + ' is not a valid key name!');
-            process.exit(0);
-        break;
     }
 }
 
