@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "ftpong.js",
+  "bin": {
+	"ftpong": "bin/ftpong.js"
+  },
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/ArunSahadeo/ftpong.git"
+  },
   "dependencies": {
-    "ftp": "^0.3.10"
+    "ftp": "^0.3.10",
+    "readline-sync": "^1.4.9"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["ftp"],
+  "author": "Arun Sahadeo <arunjamessahadeo@gmail.com",
+  "license": "GPL"
 }
